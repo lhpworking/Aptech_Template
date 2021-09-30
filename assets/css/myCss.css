@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.login-box {
+  overflow: hidden;
+  position: relative;
+  padding: 0 !important;
+  margin-top: 100px;
+  justify-content:center;
+  align-items: center;
+}
+
+
+.login-block {
+  position: relative;
+  left: 0;
+  margin: 0 auto;
+  transition: all 0.5s ease-in-out;
+}
+.login-block.active {
+  display: block;
+  position: absolute;
+  left: -1500px;
+}
+.signup-block {
+  position: absolute;
+  display: block;
+  top: -1500px;
+}
+.signup-block.active {
+  position: relative;
+  display: block;
+  top: 0;
+  transition: 0.5s ease;
+  padding-bottom: 100px;
+}
+.forgotPass-block {
+  position: absolute;
+  display: block;
+  right: -1500px;
+}
+.forgotPass-block.active {
+  position: relative;
+  display: block;
+  right: 0;
+  transition: 0.5s ease;
+}
+.logo {
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.form-check-input:checked {
+  background-color: #fd0d0d;
+  border-color: #fd0d0d;
+}
+.table-responsive {
+    overflow-x: auto;
+    max-height:300px;
+    overflow-y: auto;
+    table-layout: fixed;
+}
+.table{
+    width: 100%;
+}
+
+.table th{
+    color:black !important;
+    font-size: 18px;
+    font-weight:500;
+    border-bottom: 1px solid rgb(110, 109, 109,0.2);
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    position:sticky;
+    top:0;
+    background:white;
+    white-space: nowrap;
+    padding: 25px 25px;
+}
+.table td{
+    color:#6c757d;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(110, 109, 109,0.2);
+}
+.page-link {
+   
+    color: red!important;
+}
+
+
